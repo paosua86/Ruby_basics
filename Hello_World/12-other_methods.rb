@@ -23,21 +23,3 @@ end
 
 puts tame(3)
 #convert json data to a Ruby hash
-
-s = @get_shakey
-
-s["William Shakespeare"].each { |key, val|
-  puts val["title"]
-}
-def count_plays(year)
-  s = get_shakey
-
-  s["William Shakespeare"]
-    .select { |k, v|
-      v["finished"] == year
-    }.each { |key, val|
-      puts val["title"]
-    }.count
-end
-
-puts count_plays(0)
