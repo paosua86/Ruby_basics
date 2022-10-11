@@ -9,6 +9,6 @@ def count_plays(year)
         puts val["title"]
     }.count
 end
-  
+
 puts count_plays(1591)
 
